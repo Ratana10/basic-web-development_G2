@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic web development</title>
+  <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    .title-color-red {
+      color: red;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th {
+      background-color: green;
+      text-align: center;
+      color: #FFF;
+    }
+
+    td,
+    th {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    tr:nth-child(even) {
+      background-color: rgb(219, 214, 214);
+    }
+
+    tr:hover {
+      background-color: darkgoldenrod;
+    }
+
+    .score {
+      text-align: center;
+      color: blue;
+    }
+
+    .table-container {
+      overflow-x: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+  <h1 class="title-color-green">Basic web development's student name</h1>
+  <div class="table-container">
+    <table>
+      <caption>Student's name</caption>
+      <thead>
+        <th>NO</th>
+        <th colspan="2">Full Name</th>
+        <th>Gender</th>
+        <th>Course</th>
+        <th colspan="5">Score</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Ratana</td>
+          <td>San</td>
+          <td>Male</td>
+          <td>Web development</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ratanak</td>
+          <td>San</td>
+          <td>Female</td>
+          <td>CPP</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Ratanak</td>
+          <td>San</td>
+          <td>Female</td>
+          <td>CPP</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Ratanak</td>
+          <td>San</td>
+          <td>Female</td>
+          <td>CPP</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Ratanak</td>
+          <td>San</td>
+          <td>Female</td>
+          <td>CPP</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+          <td class="score">100</td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <div style="margin-top: 20px;">
+    <table>
+    <tr>
+      <th>Name</th>
+      <td>Ratana</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Phone</th>
+      <td>012-123-123</td>
+    </tr>
+    <tr>
+      <td>098-765-243</td>
+    </tr>
+  </table>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <table>
+      <tr>
+        <th colspan="5">Room Traiff</th>
+      </tr>
+      <tr>
+        <th rowspan="3">Room Type</th>
+        <th colspan="2">Deluxe</th>
+        <th colspan="2">Executive</th>
+      </tr>
+      <tr>
+        <th>AC</th>
+        <th>Non-AC</th>
+         <th>AC</th>
+        <th>Non-AC</th>
+      </tr>
+      <tr>
+        <td style="text-align: center;">1500</td>
+        <td style="text-align: center;">1000</td>
+        <td style="text-align: center;">2500</td>
+        <td style="text-align: center;">1500</td>
+      </tr>
+    </table>
+  </div>
+
+  </p>
+</body>
+
+</html>
