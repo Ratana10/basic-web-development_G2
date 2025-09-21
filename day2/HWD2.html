@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homewrok_D2</title>
+    <style>
+        .title-color-red {
+      color: red;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th {
+      background-color: green;
+      text-align: center;
+      color: #FFF;
+    }
+
+    td,
+    th {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    tr:nth-child(even) {
+      background-color: rgb(219, 214, 214);
+    }
+
+    tr:hover {
+      background-color: darkgoldenrod;
+    }
+
+    .score {
+      text-align: center;
+      color: blue;
+    }
+
+    .table-container {
+      overflow-x: auto;
+    }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th style="width: 100px;" >ID</th>
+            <th colspan="2">Full_name</th>
+            <th >Subject</th>
+            <th>Score</th>
+            <tbody>
+                <tr>
+                    <th rowspan="3">1</th>
+                    <td rowspan="3">Devid</td>
+                    <td rowspan="3">Smith</td>
+                     <td>Maths</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>90</td>
+                </tr>
+                 <tr>
+                    <td>Computers</td>
+                    <td>80</td>
+                </tr>
+               
+
+            </tbody>
+        </thead>
+    </table>
+</body>
+</html>
