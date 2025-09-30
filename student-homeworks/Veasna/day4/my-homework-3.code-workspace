@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../../../Documents/my-homework-3"
+	},
+	{
+		"path": "../../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "SalaIT"
+  }
+}
