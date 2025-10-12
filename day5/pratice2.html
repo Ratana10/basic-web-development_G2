@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      width: 600px;
+      height: 400px;
+      gap: 10px;
+    }
+
+    .item-center{
+       display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box1{
+      background-color: orangered;
+      grid-column: 1 / span 3;
+      grid-row: 1;
+     
+
+    }
+    .box2{
+      background-color: orangered;
+     grid-column: 4;
+     grid-row:  1;
+    }
+    .box3{
+      background-color: orange;
+      grid-column: 1 / span 2;
+      grid-row: 2 / span 2;
+      
+    }
+    .box4{
+      background-color: purple;
+      grid-column: 3 / span 2;
+      grid-row: 2;
+     
+    }
+    .box5{
+      background-color: purple;
+      grid-column: 3 / span 2;
+      grid-row: 3;
+    }
+    .box6{
+      background-color: blue;
+      grid-column: 1;
+      grid-row: 4;
+    }
+    .box7{
+      background-color: blue;
+      grid-column: 2 / span 2;
+      grid-row: 4;
+    
+    }
+    .box8{
+      background-color: blue;
+      grid-column: 4;
+      grid-row: 4;
+     
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box1 item-center">1</div>
+    <div class="box2 item-center">2</div>
+    <div class="box3 item-center">3</div>
+    <div class="box4 item-center">4</div>
+    <div class="box5 item-center">5</div>
+    <div class="box6 item-center">6</div>
+    <div class="box7 item-center">7</div>
+    <div class="box8 item-center">8</div>
+  </div>
+  
+</body>
+</html>

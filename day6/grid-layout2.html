@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Layout</title>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/?size=100&id=16456&format=png&color=000000"
+      type="image/x-icon"
+    />
+    <style>
+      body{
+        font-family: monospace;
+      }
+      .parent {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 6px;
+        height: 400px;
+        width: 400px;
+      }
+
+      .div1 {
+        grid-column: span 3 / span 3;
+        background-color: orangered;
+      }
+
+      .div3 {
+        grid-column-start: 4;
+        background-color: orangered;
+
+      }
+
+      .div4 {
+        grid-column: span 2 / span 2;
+        grid-row: span 2 / span 2;
+        grid-row-start: 2;
+        background-color: yellow;
+      }
+
+      .div5 {
+        grid-column: span 2 / span 2;
+        grid-column-start: 3;
+        grid-row-start: 2;
+        background-color: purple;
+      }
+
+      .div6 {
+        grid-column: span 2 / span 2;
+        grid-column-start: 3;
+        grid-row-start: 3;
+        background-color: purple;
+
+      }
+
+      .div7 {
+        grid-row-start: 4;
+        background-color: aqua;
+      }
+
+      .div8 {
+        grid-column: span 2 / span 2;
+        grid-row-start: 4;
+        background-color: aqua;
+
+      }
+
+      .div9 {
+        grid-column-start: 4;
+        grid-row-start: 4;
+        background-color: aqua;
+
+      }
+
+      #myTitle{
+        color: dodgerblue;
+      }
+
+
+      .text-center{
+        text-align: center;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="div1"></div>
+      <div class="div3"></div>
+      <div class="div4"></div>
+      <div class="div5"></div>
+      <div class="div6"></div>
+      <div class="div7"></div>
+      <div class="div8"></div>
+      <div class="div9"></div>
+    </div>
+    <hr>
+    <p id="myTitle" class="text-center">This my first paragraph</p>
+    
+    <hr>
+    <p id="myTitle">Sala-IT have many course such as:</p>
+    <ol>
+      <li>Basic <span style="color: red;">Web Design</span></li>
+      <li>Full-stack</li>
+      <li>Mobile Development</li>
+      <li>Python Program</li>
+    </ol>
+
+    <ul>
+       <li>Basic Web Design</li>
+      <li>Full-stack</li>
+      <li>Mobile Development</li>
+      <li>Python Program</li>
+    </ul>
+
+  </body>
+</html>

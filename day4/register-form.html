@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Register Form</title>
+  <style>
+    
+    form {
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, textarea, button, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+    <h2>Student Register Form</h2>
+    <label>Full Name:</label>
+    <input type="text" required>
+
+    <label>Email:</label>
+    <input type="email" required>
+
+    <label>Password:</label>
+    <input type="password" required>
+
+    <label>Confirm Password:</label>
+    <input type="password" required>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Other
+
+    <label>Date of Birth:</label>
+    <input type="date">
+
+     <label>Major:</label>
+    <select required>
+      <option value="">-- Select Major --</option>
+      <option value="web">Web Development</option>
+      <option value="networking">Networking</option>
+      <option value="design">Design</option>
+      <option value="ai">Artificial Intelligence</option>
+    </select>
+
+    <label>Address:</label>
+    <textarea></textarea>
+
+    <button type="submit">Register</button>
+
+</body>
+</html>

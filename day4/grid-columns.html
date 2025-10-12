@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flex-layout{
+      display: flex;
+      gap: 20px;
+    }
+
+    .grid-layout{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 20px;
+    }
+
+    .box{
+      text-align: center;
+      background-color: limegreen;
+
+    }
+  </style>
+</head>
+<body>
+  <h4>Display 4 columns with CSS grid</h4>
+  <div class="grid-layout">
+    <div class="box">Column 1</div>
+    <div class="box">Column 2</div>
+    <div class="box">Column 3</div>
+    <div class="box">Column 4</div>
+  </div>
+</body>
+</html>
